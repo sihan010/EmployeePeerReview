@@ -27,6 +27,7 @@ For Database Management you can get SQL Server Management Studio-
   Connection String format -
   "Server=myServerAddress;Database=myDataBaseName;User Id=myUsername;Password=myPassword;"
 - Clone the project and open it with Visual Studio, or double click "EmployeePeerReview.csproj"
+- Open appsettings.json and replace ConnectionString.EmployeeDB entry with your Connection String
 - Open Package Manager Console from Tools>NuGet Package Manager>Package Manager Console
 - Run "Update-Database" command
 - Run the project (1st run will take some time)
